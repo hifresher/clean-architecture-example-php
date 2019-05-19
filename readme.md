@@ -10,10 +10,13 @@ php7.2 + Webサーバーソフトウェア(Apache等)
 ## Install
 
 
-    git clone git@github.com:nakatatsu/clean-architecture-example-php.git
+    cd /var/www/html
+    git clone https://github.com/nakatatsu/clean-architecture-example-php.git
     
-    # phpからDataディレクトリに書き込めるようにします。適宜自分の環境に合わせて読み替えて下さい。Windows10だと不要。
-    chown apache:apache ./Data
+    # phpからDataディレクトリに書き込めるようにします。
+    chown apache:apache ./clean-architecture-example-php/Data
+
+※ 適宜自分の環境に合わせて読み替えて下さい。
 
 
 ## Usage
